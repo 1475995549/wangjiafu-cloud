@@ -7,6 +7,7 @@ import io.swagger.v3.oas.models.info.Info;
 import io.swagger.v3.oas.models.security.SecurityRequirement;
 import io.swagger.v3.oas.models.security.SecurityScheme;
 import io.swagger.v3.oas.models.servers.Server;
+import org.springdoc.core.GroupedOpenApi;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -32,8 +33,8 @@ public class SpringDocAutoConfiguration
     {
         return new OpenAPI().components(new Components()
             // 设置认证的请求头
-            .addSecuritySchemes("apikey", securityScheme()))
-            .addSecurityItem(new SecurityRequirement().addList("apikey"))
+            .addSecuritySchemes("apikey", securityScheme())) //定义一个安全模式
+            .addSecurityItem(new SecurityRequirement().addList("apikey")) //使此安全模式生效
             .info(convertInfo(properties.getInfo()))
             .servers(servers(properties.getGatewayUrl()));
     }
