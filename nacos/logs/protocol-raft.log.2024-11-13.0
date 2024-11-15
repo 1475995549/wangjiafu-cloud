@@ -1,0 +1,60 @@
+2024-11-13 16:47:32,266 INFO Initializes the Raft protocol, raft-com.wangjiafu.swagger.config info : {}
+
+2024-11-13 16:47:34,381 INFO ========= The raft protocol is starting... =========
+
+2024-11-13 16:47:34,426 INFO ========= The raft protocol start finished... =========
+
+2024-11-13 16:47:34,517 INFO create raft group : naming_persistent_service_v2
+
+2024-11-13 16:47:37,048 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='192.168.0.236:7848', term=1, raftClusterInfo=[192.168.0.236:7848]}
+
+2024-11-13 16:47:37,407 INFO create raft group : naming_instance_metadata
+
+2024-11-13 16:47:37,695 INFO create raft group : naming_service_metadata
+
+2024-11-13 16:47:38,006 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='192.168.0.236:7848', term=1, raftClusterInfo=[192.168.0.236:7848]}
+
+2024-11-13 16:47:38,434 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:631)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:524)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:361)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:272)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-11-13 16:55:17,479 INFO shutdown jraft server
+
+2024-11-13 16:55:17,480 INFO ========= The raft protocol is starting to close =========
+
+2024-11-13 16:55:17,549 INFO ========= The raft protocol has been closed =========
+
+2024-11-13 16:56:24,586 INFO Initializes the Raft protocol, raft-com.wangjiafu.swagger.config info : {}
+
+2024-11-13 16:56:25,282 INFO ========= The raft protocol is starting... =========
+
+2024-11-13 16:56:25,318 INFO ========= The raft protocol start finished... =========
+
+2024-11-13 16:56:25,366 INFO create raft group : naming_persistent_service_v2
+
+2024-11-13 16:56:26,864 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='192.168.0.236:7848', term=2, raftClusterInfo=[192.168.0.236:7848]}
+
+2024-11-13 16:56:26,904 INFO create raft group : naming_instance_metadata
+
+2024-11-13 16:56:27,083 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='192.168.0.236:7848', term=2, raftClusterInfo=[192.168.0.236:7848]}
+
+2024-11-13 16:56:27,086 INFO create raft group : naming_service_metadata
+
+2024-11-13 16:56:27,300 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='192.168.0.236:7848', term=2, raftClusterInfo=[192.168.0.236:7848]}
+
+2024-11-13 17:51:02,946 INFO shutdown jraft server
+
+2024-11-13 17:51:02,947 INFO ========= The raft protocol is starting to close =========
+
+2024-11-13 17:51:03,003 INFO ========= The raft protocol has been closed =========
+

@@ -1,0 +1,98 @@
+2024-11-13 16:47:24,649 WARN naming.distro com.wangjiafu.swagger.config will be removed, please use core.protocol.distro replace.
+
+2024-11-13 16:47:24,649 WARN Using naming.distro com.wangjiafu.swagger.config to replace core.distro com.wangjiafu.swagger.config
+
+2024-11-13 16:47:24,843 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2024-11-13 16:47:24,844 INFO listen for service meta change
+
+2024-11-13 16:47:24,849 INFO upgrade.state file is not exist
+
+2024-11-13 16:47:32,019 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-11-13 16:47:32,019 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-11-13 16:47:32,020 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-11-13 16:47:32,020 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-11-13 16:47:38,554 INFO Load instance extension handler []
+
+2024-11-13 16:55:17,405 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2024-11-13 16:55:17,428 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2024-11-13 16:55:19,261 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-11-13 16:55:19,261 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-11-13 16:56:16,396 WARN naming.distro com.wangjiafu.swagger.config will be removed, please use core.protocol.distro replace.
+
+2024-11-13 16:56:16,396 WARN Using naming.distro com.wangjiafu.swagger.config to replace core.distro com.wangjiafu.swagger.config
+
+2024-11-13 16:56:16,640 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2024-11-13 16:56:16,641 INFO listen for service meta change
+
+2024-11-13 16:56:24,426 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-11-13 16:56:24,426 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-11-13 16:56:24,426 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-11-13 16:56:24,426 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-11-13 16:56:27,592 INFO Load instance extension handler []
+
+2024-11-13 17:51:02,911 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2024-11-13 17:51:02,927 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2024-11-13 17:51:04,810 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-11-13 17:51:04,810 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

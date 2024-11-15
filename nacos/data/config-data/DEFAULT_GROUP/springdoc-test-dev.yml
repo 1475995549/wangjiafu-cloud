@@ -1,0 +1,15 @@
+# springdoc配置
+springdoc:
+  gatewayUrl: http://localhost:8080/${spring.application.name}
+  api-docs:
+    # 是否开启接口文档
+    enabled: true
+  info:
+    # 标题
+    title: 'springdoc测试接口文档'
+    # 描述
+    description: 'springdoc测试接口描述'
+    # 作者信息
+    contact:
+      name: wjf
+      url: https://wjf.vip

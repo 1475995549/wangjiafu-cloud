@@ -1,0 +1,16 @@
+2024-11-14 16:10:02,837 INFO [dump-task] add task. groupKey=springdoc-test+DEFAULT_GROUP, taskKey=springdoc-test+DEFAULT_GROUP++false+null
+
+2024-11-14 16:23:40,692 INFO [dump-task] add task. groupKey=springdoc-test+DEFAULT_GROUP, taskKey=springdoc-test+DEFAULT_GROUP++false+null
+
+2024-11-14 16:24:17,044 INFO [dump-task] add task. groupKey=springdoc-test-dev.yml+DEFAULT_GROUP, taskKey=springdoc-test-dev.yml+DEFAULT_GROUP++false+null
+
+2024-11-14 16:27:13,183 INFO [dump-task] add task. groupKey=application-dev+DEFAULT_GROUP, taskKey=application-dev+DEFAULT_GROUP++false+null
+
+2024-11-14 16:27:35,973 INFO [dump-task] add task. groupKey=application-dev+DEFAULT_GROUP, taskKey=application-dev+DEFAULT_GROUP++false+null
+
+2024-11-14 16:27:55,337 INFO [dump-task] add task. groupKey=application-dev.yml+DEFAULT_GROUP, taskKey=application-dev.yml+DEFAULT_GROUP++false+null
+
+2024-11-14 16:49:58,727 INFO [dump-all-ok] springdoc-test-dev.yml+DEFAULT_GROUP, 1731572657000, length=289, md5=ecb875168d79c26dfb1667cb6edbc5fa
+
+2024-11-14 16:49:58,728 INFO [dump-all-ok] application-dev.yml+DEFAULT_GROUP, 1731572875000, length=507, md5=9928f41dfb10386ad38b3254af5692e0
+

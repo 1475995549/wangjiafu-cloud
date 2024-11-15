@@ -1,0 +1,224 @@
+2024-11-14 14:34:27,993 WARN naming.distro com.wangjiafu.swagger.config will be removed, please use core.protocol.distro replace.
+
+2024-11-14 14:34:27,993 WARN Using naming.distro com.wangjiafu.swagger.config to replace core.distro com.wangjiafu.swagger.config
+
+2024-11-14 14:34:28,207 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2024-11-14 14:34:28,210 INFO listen for service meta change
+
+2024-11-14 14:36:12,811 WARN naming.distro com.wangjiafu.swagger.config will be removed, please use core.protocol.distro replace.
+
+2024-11-14 14:36:12,811 WARN Using naming.distro com.wangjiafu.swagger.config to replace core.distro com.wangjiafu.swagger.config
+
+2024-11-14 14:36:13,236 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2024-11-14 14:36:13,241 INFO listen for service meta change
+
+2024-11-14 14:36:22,214 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-11-14 14:36:22,214 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-11-14 14:36:22,216 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-11-14 14:36:22,218 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-11-14 14:36:28,170 INFO Load instance extension handler []
+
+2024-11-14 15:34:08,846 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2024-11-14 15:34:08,905 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2024-11-14 15:34:10,737 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-11-14 15:34:10,737 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-11-14 16:05:51,999 WARN naming.distro com.wangjiafu.swagger.config will be removed, please use core.protocol.distro replace.
+
+2024-11-14 16:05:51,999 WARN Using naming.distro com.wangjiafu.swagger.config to replace core.distro com.wangjiafu.swagger.config
+
+2024-11-14 16:05:52,178 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2024-11-14 16:05:52,179 INFO listen for service meta change
+
+2024-11-14 16:05:59,524 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-11-14 16:05:59,524 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-11-14 16:05:59,525 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-11-14 16:05:59,525 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-11-14 16:06:03,143 INFO Load instance extension handler []
+
+2024-11-14 16:49:11,903 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2024-11-14 16:49:11,968 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2024-11-14 16:49:12,848 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-11-14 16:49:12,849 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-11-14 16:49:56,820 WARN naming.distro com.wangjiafu.swagger.config will be removed, please use core.protocol.distro replace.
+
+2024-11-14 16:49:56,820 WARN Using naming.distro com.wangjiafu.swagger.config to replace core.distro com.wangjiafu.swagger.config
+
+2024-11-14 16:49:57,165 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2024-11-14 16:49:57,167 INFO listen for service meta change
+
+2024-11-14 16:50:05,382 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-11-14 16:50:05,382 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-11-14 16:50:05,383 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-11-14 16:50:05,383 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-11-14 16:50:07,909 INFO Load instance extension handler []
+
+2024-11-14 16:54:20,105 INFO Client connection 1731574460088_127.0.0.1_57151 connect
+
+2024-11-14 16:54:20,232 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='springdoc-test', ephemeral=true, revision=0}, 1731574460088_127.0.0.1_57151
+
+2024-11-14 16:55:46,093 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='springdoc-test', ephemeral=true, revision=1}, 1731574460088_127.0.0.1_57151
+
+2024-11-14 16:55:46,124 INFO Client connection 1731574460088_127.0.0.1_57151 disconnect, remove instances and subscribers
+
+2024-11-14 16:55:46,585 INFO Client connection 1731574455969_127.0.0.1_57139 disconnect, remove instances and subscribers
+
+2024-11-14 16:56:46,307 INFO Client connection 1731574606296_127.0.0.1_57261 connect
+
+2024-11-14 16:56:46,419 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='springdoc-test', ephemeral=true, revision=2}, 1731574606296_127.0.0.1_57261
+
+2024-11-14 16:59:49,226 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='springdoc-test', ephemeral=true, revision=3}, 1731574606296_127.0.0.1_57261
+
+2024-11-14 16:59:49,237 INFO Client connection 1731574606296_127.0.0.1_57261 disconnect, remove instances and subscribers
+
+2024-11-14 16:59:49,679 INFO Client connection 1731574592584_127.0.0.1_57254 disconnect, remove instances and subscribers
+
+2024-11-14 17:00:50,025 INFO Client connection 1731574826145_127.0.0.1_57399 disconnect, remove instances and subscribers
+
+2024-11-14 17:01:37,584 WARN namespace : public, [DEFAULT_GROUP@@springdoc-test] services are automatically cleaned
+
+2024-11-14 17:23:55,034 INFO Client connection 1731576234672_127.0.0.1_59331 disconnect, remove instances and subscribers
+
+2024-11-14 17:23:57,024 INFO Client connection 1731576237006_127.0.0.1_59337 connect
+
+2024-11-14 17:23:57,177 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='springdoc-test', ephemeral=true, revision=0}, 1731576237006_127.0.0.1_59337
+
+2024-11-14 17:25:31,967 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='springdoc-test', ephemeral=true, revision=1}, 1731576237006_127.0.0.1_59337
+
+2024-11-14 17:25:31,979 INFO Client connection 1731576237006_127.0.0.1_59337 disconnect, remove instances and subscribers
+
+2024-11-14 17:25:32,452 INFO Client connection 1731576234856_127.0.0.1_59332 disconnect, remove instances and subscribers
+
+2024-11-14 17:26:29,189 INFO Client connection 1731576389154_127.0.0.1_59490 connect
+
+2024-11-14 17:26:29,300 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='springdoc-test', ephemeral=true, revision=2}, 1731576389154_127.0.0.1_59490
+
+2024-11-14 17:31:56,069 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='springdoc-test', ephemeral=true, revision=3}, 1731576389154_127.0.0.1_59490
+
+2024-11-14 17:31:56,085 INFO Client connection 1731576389154_127.0.0.1_59490 disconnect, remove instances and subscribers
+
+2024-11-14 17:31:56,493 INFO Client connection 1731576376111_127.0.0.1_59474 disconnect, remove instances and subscribers
+
+2024-11-14 17:33:06,736 INFO Client connection 1731576764892_127.0.0.1_59916 disconnect, remove instances and subscribers
+
+2024-11-14 17:33:38,204 WARN namespace : public, [DEFAULT_GROUP@@springdoc-test] services are automatically cleaned
+
+2024-11-14 17:42:10,394 INFO Client connection 1731577330075_127.0.0.1_60637 disconnect, remove instances and subscribers
+
+2024-11-14 17:42:13,546 INFO Client connection 1731577333522_127.0.0.1_60639 connect
+
+2024-11-14 17:42:13,666 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='springdoc-test', ephemeral=true, revision=0}, 1731577333522_127.0.0.1_60639
+
+2024-11-14 17:42:13,719 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='springdoc-test', ephemeral=true, revision=1}, 1731577333522_127.0.0.1_60639
+
+2024-11-14 17:42:14,046 INFO Client connection 1731577333522_127.0.0.1_60639 disconnect, remove instances and subscribers
+
+2024-11-14 17:42:14,432 INFO Client connection 1731577330212_127.0.0.1_60638 disconnect, remove instances and subscribers
+
+2024-11-14 17:43:10,728 INFO Client connection 1731577390694_127.0.0.1_60715 connect
+
+2024-11-14 17:43:10,837 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='springdoc-test', ephemeral=true, revision=2}, 1731577390694_127.0.0.1_60715
+
+2024-11-14 17:45:14,675 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='springdoc-test', ephemeral=true, revision=3}, 1731577390694_127.0.0.1_60715
+
+2024-11-14 17:45:14,700 INFO Client connection 1731577390694_127.0.0.1_60715 disconnect, remove instances and subscribers
+
+2024-11-14 17:45:15,135 INFO Client connection 1731577386275_127.0.0.1_60713 disconnect, remove instances and subscribers
+
+2024-11-14 17:45:45,560 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2024-11-14 17:45:45,635 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2024-11-14 17:45:45,900 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-11-14 17:45:45,900 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

@@ -1,0 +1,28 @@
+2024-11-14 14:34:27,926 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2024-11-14 14:34:27,930 WARN [serverlist] updated to : [Member{ip='192.168.0.236', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.4}}]
+
+2024-11-14 14:36:12,728 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2024-11-14 14:36:12,730 WARN [serverlist] updated to : [Member{ip='192.168.0.236', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.4}}]
+
+2024-11-14 14:36:14,969 WARN [ClusterRpcClientProxy] success to refresh cluster rpc client on start up,members =[] 
+
+2024-11-14 14:36:30,746 INFO This node is ready to provide external services
+
+2024-11-14 16:05:51,933 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2024-11-14 16:05:51,934 WARN [serverlist] updated to : [Member{ip='192.168.0.236', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.4}}]
+
+2024-11-14 16:05:53,263 WARN [ClusterRpcClientProxy] success to refresh cluster rpc client on start up,members =[] 
+
+2024-11-14 16:06:05,009 INFO This node is ready to provide external services
+
+2024-11-14 16:49:56,729 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2024-11-14 16:49:56,731 WARN [serverlist] updated to : [Member{ip='192.168.0.236', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.4}}]
+
+2024-11-14 16:49:58,751 WARN [ClusterRpcClientProxy] success to refresh cluster rpc client on start up,members =[] 
+
+2024-11-14 16:50:10,136 INFO This node is ready to provide external services
+

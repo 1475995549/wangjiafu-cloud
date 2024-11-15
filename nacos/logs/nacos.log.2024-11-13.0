@@ -1,0 +1,274 @@
+2024-11-13 16:47:17,308 INFO Starting Nacos v2.0.4 on wangjiafudeMacBook-Pro.local with PID 4642 (/Users/wangjiafu/Documents/workspace/idea/wangjiafu/springcloud_test/nacos/target/nacos-server.jar started by wangjiafu in /Users/wangjiafu/Documents/workspace/idea/wangjiafu/springcloud_test)
+
+2024-11-13 16:47:17,308 INFO The following profiles are active: standalone
+
+2024-11-13 16:47:22,063 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4d411036' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2024-11-13 16:47:22,076 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2024-11-13 16:47:22,586 INFO Tomcat initialized with port(s): 8848 (http)
+
+2024-11-13 16:47:22,644 INFO Starting service [Tomcat]
+
+2024-11-13 16:47:22,644 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+
+2024-11-13 16:47:23,105 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+2024-11-13 16:47:23,172 INFO Initializing Spring embedded WebApplicationContext
+
+2024-11-13 16:47:23,172 INFO Root WebApplicationContext: initialization completed in 5784 ms
+
+2024-11-13 16:47:23,637 INFO HikariPool-1 - Starting...
+
+2024-11-13 16:47:23,918 INFO HikariPool-1 - Start completed.
+
+2024-11-13 16:47:24,588 INFO Nacos-related cluster resource initialization
+
+2024-11-13 16:47:24,597 INFO Load com.alibaba.nacos.core.ability.RemoteAbilityInitializer for ServerAbilityInitializer
+
+2024-11-13 16:47:24,597 INFO Load com.alibaba.nacos.naming.ability.NamingAbilityInitializer for ServerAbilityInitializer
+
+2024-11-13 16:47:24,601 INFO The cluster resource is initialized
+
+2024-11-13 16:47:24,650 INFO Get Distro com.wangjiafu.swagger.config from env, DistroConfig{syncDelayMillis=1000, syncTimeoutMillis=3000, syncRetryDelayMillis=3000, verifyIntervalMillis=5000, verifyTimeoutMillis=3000, loadDataRetryDelayMillis=30000}
+
+2024-11-13 16:47:25,267 INFO Reflections took 54 ms to scan 1 urls, producing 5 keys and 16 values 
+
+2024-11-13 16:47:25,316 INFO Reflections took 8 ms to scan 1 urls, producing 4 keys and 28 values 
+
+2024-11-13 16:47:25,334 INFO Reflections took 5 ms to scan 1 urls, producing 5 keys and 19 values 
+
+2024-11-13 16:47:25,344 INFO Reflections took 3 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2024-11-13 16:47:25,946 INFO Reflections took 67 ms to scan 2 urls, producing 3 keys and 6 values 
+
+2024-11-13 16:47:26,012 INFO Reflections took 64 ms to scan 2 urls, producing 4 keys and 9 values 
+
+2024-11-13 16:47:26,079 INFO Reflections took 65 ms to scan 2 urls, producing 3 keys and 10 values 
+
+2024-11-13 16:47:26,084 INFO Reflections took 3 ms to scan 1 urls, producing 2 keys and 2 values 
+
+2024-11-13 16:47:26,132 INFO Reflections took 47 ms to scan 2 urls, producing 1 keys and 5 values 
+
+2024-11-13 16:47:26,186 INFO Reflections took 52 ms to scan 2 urls, producing 1 keys and 7 values 
+
+2024-11-13 16:47:26,242 INFO Reflections took 53 ms to scan 2 urls, producing 2 keys and 8 values 
+
+2024-11-13 16:47:26,250 INFO Reflections took 7 ms to scan 1 urls, producing 1 keys and 1 values 
+
+2024-11-13 16:47:40,042 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2024-11-13 16:47:40,964 INFO Adding welcome page: class path resource [static/index.html]
+
+2024-11-13 16:47:42,889 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2024-11-13 16:47:43,142 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@45bb2aa1, org.springframework.security.web.context.SecurityContextPersistenceFilter@7b78ed6a, org.springframework.security.web.header.HeaderWriterFilter@213bd3d5, org.springframework.security.web.csrf.CsrfFilter@46cb98a3, org.springframework.security.web.authentication.logout.LogoutFilter@31edeac, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6ec65b5e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7afb1741, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e84111a, org.springframework.security.web.session.SessionManagementFilter@451882b2, org.springframework.security.web.access.ExceptionTranslationFilter@4da9f723]
+
+2024-11-13 16:47:43,541 INFO Initializing ExecutorService 'taskScheduler'
+
+2024-11-13 16:47:43,610 INFO Exposing 16 endpoint(s) beneath base path '/actuator'
+
+2024-11-13 16:47:43,946 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2024-11-13 16:47:43,960 INFO Started Nacos in 47.929 seconds (JVM running for 48.911)
+
+2024-11-13 16:47:43,962 INFO Nacos started successfully in stand alone mode. use external storage
+
+2024-11-13 16:50:22,598 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2024-11-13 16:50:22,602 INFO Initializing Servlet 'dispatcherServlet'
+
+2024-11-13 16:50:22,704 INFO Completed initialization in 97 ms
+
+2024-11-13 16:55:06,457 INFO Get Distro com.wangjiafu.swagger.config from env, DistroConfig{syncDelayMillis=1000, syncTimeoutMillis=3000, syncRetryDelayMillis=3000, verifyIntervalMillis=5000, verifyTimeoutMillis=3000, loadDataRetryDelayMillis=30000}
+
+2024-11-13 16:55:17,403 WARN [HttpClientBeanHolder] Start destroying common HttpClient
+
+2024-11-13 16:55:17,402 WARN [NotifyCenter] Start destroying Publisher
+
+2024-11-13 16:55:17,403 WARN [ThreadPoolManager] Start destroying ThreadPool
+
+2024-11-13 16:55:17,403 WARN [WatchFileCenter] start close
+
+2024-11-13 16:55:17,405 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /Users/wangjiafu/Documents/workspace/idea/wangjiafu/springcloud_test/nacos/data/tps
+
+2024-11-13 16:55:17,406 WARN [NotifyCenter] Destruction of the end
+
+2024-11-13 16:55:17,406 WARN [ConfigServer-HttpClientManager] Start destroying NacosRestTemplate
+
+2024-11-13 16:55:17,420 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /Users/wangjiafu/Documents/workspace/idea/wangjiafu/springcloud_test/nacos/data/loader
+
+2024-11-13 16:55:17,420 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /Users/wangjiafu/Documents/workspace/idea/wangjiafu/springcloud_test/nacos/conf
+
+2024-11-13 16:55:17,421 WARN [WatchFileCenter] already closed
+
+2024-11-13 16:55:17,424 WARN [HttpClientBeanHolder] Destruction of the end
+
+2024-11-13 16:55:17,424 WARN [ConfigServer-HttpClientManager] Destruction of the end
+
+2024-11-13 16:55:17,457 INFO Shutting down ExecutorService 'taskScheduler'
+
+2024-11-13 16:55:17,467 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+
+2024-11-13 16:55:19,580 WARN [ThreadPoolManager] Destruction of the end
+
+2024-11-13 16:55:59,009 INFO Starting Nacos v2.0.4 on wangjiafudeMacBook-Pro.local with PID 4785 (/Users/wangjiafu/Documents/workspace/idea/wangjiafu/springcloud_test/nacos/target/nacos-server.jar started by wangjiafu in /Users/wangjiafu/Documents/workspace/idea/wangjiafu/springcloud_test)
+
+2024-11-13 16:55:59,014 INFO The following profiles are active: standalone
+
+2024-11-13 16:56:12,827 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2cd2c8fe' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2024-11-13 16:56:12,842 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2024-11-13 16:56:13,601 INFO Tomcat initialized with port(s): 8848 (http)
+
+2024-11-13 16:56:13,701 INFO Starting service [Tomcat]
+
+2024-11-13 16:56:13,702 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+
+2024-11-13 16:56:14,285 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+2024-11-13 16:56:14,346 INFO Initializing Spring embedded WebApplicationContext
+
+2024-11-13 16:56:14,347 INFO Root WebApplicationContext: initialization completed in 15243 ms
+
+2024-11-13 16:56:14,968 INFO HikariPool-1 - Starting...
+
+2024-11-13 16:56:15,420 INFO HikariPool-1 - Start completed.
+
+2024-11-13 16:56:16,330 INFO Nacos-related cluster resource initialization
+
+2024-11-13 16:56:16,344 INFO Load com.alibaba.nacos.core.ability.RemoteAbilityInitializer for ServerAbilityInitializer
+
+2024-11-13 16:56:16,344 INFO Load com.alibaba.nacos.naming.ability.NamingAbilityInitializer for ServerAbilityInitializer
+
+2024-11-13 16:56:16,347 INFO The cluster resource is initialized
+
+2024-11-13 16:56:16,397 INFO Get Distro com.wangjiafu.swagger.config from env, DistroConfig{syncDelayMillis=1000, syncTimeoutMillis=3000, syncRetryDelayMillis=3000, verifyIntervalMillis=5000, verifyTimeoutMillis=3000, loadDataRetryDelayMillis=30000}
+
+2024-11-13 16:56:17,261 INFO Reflections took 70 ms to scan 1 urls, producing 5 keys and 16 values 
+
+2024-11-13 16:56:17,343 INFO Reflections took 15 ms to scan 1 urls, producing 4 keys and 28 values 
+
+2024-11-13 16:56:17,374 INFO Reflections took 6 ms to scan 1 urls, producing 5 keys and 19 values 
+
+2024-11-13 16:56:17,387 INFO Reflections took 1 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2024-11-13 16:56:18,302 INFO Reflections took 84 ms to scan 2 urls, producing 3 keys and 6 values 
+
+2024-11-13 16:56:18,405 INFO Reflections took 98 ms to scan 2 urls, producing 4 keys and 9 values 
+
+2024-11-13 16:56:18,485 INFO Reflections took 79 ms to scan 2 urls, producing 3 keys and 10 values 
+
+2024-11-13 16:56:18,494 INFO Reflections took 5 ms to scan 1 urls, producing 2 keys and 2 values 
+
+2024-11-13 16:56:18,578 INFO Reflections took 82 ms to scan 2 urls, producing 1 keys and 5 values 
+
+2024-11-13 16:56:18,664 INFO Reflections took 80 ms to scan 2 urls, producing 1 keys and 7 values 
+
+2024-11-13 16:56:18,775 INFO Reflections took 110 ms to scan 2 urls, producing 2 keys and 8 values 
+
+2024-11-13 16:56:18,783 INFO Reflections took 6 ms to scan 1 urls, producing 1 keys and 1 values 
+
+2024-11-13 16:56:28,142 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2024-11-13 16:56:28,518 INFO Adding welcome page: class path resource [static/index.html]
+
+2024-11-13 16:56:29,317 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2024-11-13 16:56:29,403 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3ec2ecea, org.springframework.security.web.context.SecurityContextPersistenceFilter@15f8701f, org.springframework.security.web.header.HeaderWriterFilter@4bbb49b0, org.springframework.security.web.csrf.CsrfFilter@670ce331, org.springframework.security.web.authentication.logout.LogoutFilter@86733, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@11d4dbd6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@eb507b9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@440eaa07, org.springframework.security.web.session.SessionManagementFilter@3effd4f3, org.springframework.security.web.access.ExceptionTranslationFilter@7c29adc8]
+
+2024-11-13 16:56:29,617 INFO Initializing ExecutorService 'taskScheduler'
+
+2024-11-13 16:56:29,666 INFO Exposing 16 endpoint(s) beneath base path '/actuator'
+
+2024-11-13 16:56:29,892 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2024-11-13 16:56:29,898 INFO Started Nacos in 54.909 seconds (JVM running for 57.17)
+
+2024-11-13 16:56:29,898 INFO Nacos started successfully in stand alone mode. use external storage
+
+2024-11-13 16:56:50,237 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2024-11-13 16:56:50,240 INFO Initializing Servlet 'dispatcherServlet'
+
+2024-11-13 16:56:50,332 INFO Completed initialization in 88 ms
+
+2024-11-13 17:06:17,866 WARN clearConfigHistory start
+
+2024-11-13 17:06:17,902 WARN clearConfigHistory, getBeforeStamp:2024-10-14 17:06:17.0, pageSize:1000
+
+2024-11-13 17:06:17,918 INFO [capacityManagement] start correct usage
+
+2024-11-13 17:06:17,954 INFO [capacityManagement] end correct usage, cost: 0.03s
+
+2024-11-13 17:16:17,982 INFO [capacityManagement] start correct usage
+
+2024-11-13 17:16:17,989 INFO [capacityManagement] end correct usage, cost: 0.007s
+
+2024-11-13 17:16:18,078 WARN clearConfigHistory start
+
+2024-11-13 17:16:18,081 WARN clearConfigHistory, getBeforeStamp:2024-10-14 17:16:18.0, pageSize:1000
+
+2024-11-13 17:26:18,003 INFO [capacityManagement] start correct usage
+
+2024-11-13 17:26:18,008 INFO [capacityManagement] end correct usage, cost: 0.004s
+
+2024-11-13 17:26:18,101 WARN clearConfigHistory start
+
+2024-11-13 17:26:18,104 WARN clearConfigHistory, getBeforeStamp:2024-10-14 17:26:18.0, pageSize:1000
+
+2024-11-13 17:36:18,017 INFO [capacityManagement] start correct usage
+
+2024-11-13 17:36:18,035 INFO [capacityManagement] end correct usage, cost: 0.014s
+
+2024-11-13 17:36:18,117 WARN clearConfigHistory start
+
+2024-11-13 17:36:18,133 WARN clearConfigHistory, getBeforeStamp:2024-10-14 17:36:18.0, pageSize:1000
+
+2024-11-13 17:46:18,052 INFO [capacityManagement] start correct usage
+
+2024-11-13 17:46:18,063 INFO [capacityManagement] end correct usage, cost: 0.009s
+
+2024-11-13 17:46:18,167 WARN clearConfigHistory start
+
+2024-11-13 17:46:18,176 WARN clearConfigHistory, getBeforeStamp:2024-10-14 17:46:18.0, pageSize:1000
+
+2024-11-13 17:50:58,719 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@cdda56d (Communications link failure
+
+The last packet successfully received from the server was 5,506 milliseconds ago. The last packet sent successfully to the server was 5,507 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2024-11-13 17:50:58,723 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@41f61b9b (Communications link failure
+
+The last packet successfully received from the server was 60,144 milliseconds ago. The last packet sent successfully to the server was 60,145 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2024-11-13 17:51:02,911 WARN [ConfigServer-HttpClientManager] Start destroying NacosRestTemplate
+
+2024-11-13 17:51:02,913 WARN [HttpClientBeanHolder] Start destroying common HttpClient
+
+2024-11-13 17:51:02,911 WARN [ThreadPoolManager] Start destroying ThreadPool
+
+2024-11-13 17:51:02,912 WARN [NotifyCenter] Start destroying Publisher
+
+2024-11-13 17:51:02,911 WARN [WatchFileCenter] start close
+
+2024-11-13 17:51:02,917 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /Users/wangjiafu/Documents/workspace/idea/wangjiafu/springcloud_test/nacos/data/tps
+
+2024-11-13 17:51:02,917 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /Users/wangjiafu/Documents/workspace/idea/wangjiafu/springcloud_test/nacos/data/loader
+
+2024-11-13 17:51:02,917 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /Users/wangjiafu/Documents/workspace/idea/wangjiafu/springcloud_test/nacos/conf
+
+2024-11-13 17:51:02,917 WARN [WatchFileCenter] already closed
+
+2024-11-13 17:51:02,916 WARN [NotifyCenter] Destruction of the end
+
+2024-11-13 17:51:02,925 WARN [ConfigServer-HttpClientManager] Destruction of the end
+
+2024-11-13 17:51:02,927 WARN [HttpClientBeanHolder] Destruction of the end
+
+2024-11-13 17:51:02,941 INFO Shutting down ExecutorService 'taskScheduler'
+
+2024-11-13 17:51:02,944 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+
+2024-11-13 17:51:05,127 WARN [ThreadPoolManager] Destruction of the end
+
